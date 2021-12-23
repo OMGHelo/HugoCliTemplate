@@ -22,7 +22,7 @@ RUN ver=$(curl https://raw.githubusercontent.com/OMGHelo/HugoCli/main/version.tx
 RUN chmod u+x hugo
 
 # Clone the repository and install the dependencies
-RUN ./hugo init
+RUN ./ultroid init
 
 # Install Dependencies
 RUN pip install -U pip \
