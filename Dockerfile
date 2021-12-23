@@ -5,7 +5,7 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/BLUE-DEVIL1134/UltroidCli/blob/main/LICENSE/>.
 
-FROM teamhugox/hugo:main
+FROM python:3.9
 
 # Set Timezone
 ENV TZ=Asia/Kolkata
