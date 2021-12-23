@@ -1,5 +1,5 @@
 {
-    "name": "Ultroid UserBot Via UltroidCli",
+    "name": "Hugo UserBot Via HugoCli",
     "description": "The most advanced telegram userbot now has it's own Cli.",
     "logo": "https://telegra.ph/file/031957757a4f6a5191040.jpg",
     "keywords": [
@@ -7,9 +7,9 @@
         "ultroid",
         "cli"
     ],
-    "repository": "https://github.com/BLUE-DEVIL1134/UltroidCliTemplate",
+    "repository": "https://github.com/OMGHelo/HugoCliTemplate",
     "website": "https://ultroid.tech",
-    "success_url": "https://github.com/BLUE-DEVIL1134/UltroidCli",
+    "success_url": "https://github.com/OMGHelo/HugoCli",
     "stack": "container",
     "env": {
         "API_ID": {
