@@ -21,13 +21,10 @@ RUN ver=$(curl https://raw.githubusercontent.com/OMGHelo/HugoCli/main/version.tx
 # Give Permissions
 RUN chmod u+x hugo
 
-# Clone the repository and install the dependencies
-RUN ./hugo init
-
 # Install Dependencies
 RUN pip install -U pip \
     && pip install --no-cache-dir -r TeamHugoX/requirements.txt \
     && pip install install av --no-binary av
 
-# Run Ultroid
+# Run Hugo
 CMD ["./hugo", "heroku"]
