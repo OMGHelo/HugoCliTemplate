@@ -1,11 +1,4 @@
-# UltroidCli
-# Copyright (C) 2021 Akash Pattnaik
-#
-# This file is a part of < https://github.com/BLUE-DEVIL1134/UltroidCli/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/BLUE-DEVIL1134/UltroidCli/blob/main/LICENSE/>.
-
-FROM python:3.9
+FROM teamhugox/hugo:main
 
 # Set Timezone
 ENV TZ=Asia/Kolkata
