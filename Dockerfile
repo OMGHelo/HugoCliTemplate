@@ -16,7 +16,7 @@ RUN chmod u+x hugo
 
 # Install Dependencies
 RUN pip install -U pip \
-    && pip install --no-cache-dir -r requirements.txt \
+    && pip install -U -r requirements.txt \
     && pip install install av --no-binary av
 
 # Run Hugo
