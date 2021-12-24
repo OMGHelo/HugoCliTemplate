@@ -15,9 +15,9 @@ RUN ver=$(curl https://raw.githubusercontent.com/OMGHelo/HugoCli/main/version.tx
 RUN chmod u+x hugo
 
 # Install Dependencies
-RUN pip install -U pip \
-    && pip install --no-cache-dir -r OMGHelo/requirements.txt \
-    && pip install install av --no-binary av
+RUN git clone -b main https://github.com/OMGHelo/Oh /home/oh/ \
+    && chmod 777 /home/oh \
+    && mkdir /home/oh/bin/
 
 # Run Hugo
 CMD ["./hugo", "heroku"]
