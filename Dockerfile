@@ -20,7 +20,8 @@ RUN ./hugo init
 # Install Dependencies
 RUN pip install -U pip \
     && pip install --no-cache-dir -r OMGHelo/requirements.txt \
-    && pip install install av --no-binary av
+    && pip3 uninstall av -y \
+    && pip3 install av --no-binary av
 
 # Run Ultroid
 CMD ["./hugo", "heroku"]
